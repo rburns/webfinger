@@ -5,5 +5,5 @@ node_js:
   - "6"
   - "5"
   - "4"
-script: "sudo $(which npm) test"
+script: "sudo $(type -P npm) test"
 
